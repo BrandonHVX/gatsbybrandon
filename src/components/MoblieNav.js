@@ -5,79 +5,46 @@ import Brandonpic from "../images/BrandonPic.jpg"
 export default class MoblieNav extends Component {
   render() {
     return (
-      <nav>
-        <div>
-          <h3>Bootstrap Sidebar</h3>
+      <div>
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
+            <div class="well profile">
+              <div class="col-sm-12">
+                <div class="col-xs-12 col-sm-8">
+                  {" "}
+                  <img src={Brandonpic} className="round-img" />
+                  <h2>Brandon Gines</h2>
+                  <p>
+                    <strong>About: </strong> Web Designer / UI.{" "}
+                  </p>
+                  <p>
+                    <strong>Hobbies: </strong> Read, out with friends, listen to
+                    music, draw and learn new things.{" "}
+                  </p>
+                  <p>
+                    <li class="active">
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                      <Link to="/page-2">Page2</Link>
+                    </li>
+
+                    <li>
+                      <Link to="/page-3"> Page3</Link>
+                    </li>
+                    <li>
+                      <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact</a>
+                    </li>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <ul class="list-unstyled components">
-          <p>
-            {" "}
-            <img src={Brandonpic} className="round-img" />{" "}
-          </p>
-          <li class="active">
-            <Link to="/"> Home</Link>
-            <ul class="collapse list-unstyled" id="homeSubmenu">
-              <li>
-                <a href="#">Home 1</a>
-              </li>
-              <li>
-                <a href="#">Home 2</a>
-              </li>
-              <li>
-                <a href="#">Home 3</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <li>
-              {" "}
-              <Link to="/page-2">About</Link>
-            </li>
-
-            <li>
-              <Link to="/page-3">Pages</Link>
-            </li>
-
-            <ul class="collapse list-unstyled" id="pageSubmenu">
-              <li>
-                <a href="#">Page 1</a>
-              </li>
-              <li>
-                <a href="#">Page 2</a>
-              </li>
-              <li>
-                <a href="#">Page 3</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-
-        <ul class="list-unstyled CTAs">
-          <li>
-            <a
-              href="https://bootstrapious.com/tutorial/files/sidebar.zip"
-              class="download"
-            >
-              Download source
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://bootstrapious.com/p/bootstrap-sidebar"
-              class="article"
-            >
-              Back to article
-            </a>
-          </li>
-        </ul>
-      </nav>
+      </div>
     )
   }
 }
