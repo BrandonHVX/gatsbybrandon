@@ -22,7 +22,7 @@ export default class TopNav extends Component {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/page-2">Page2</Link>
+                  <Link to="/projects">Projects</Link>
                 </li>
 
                 <li>
