@@ -23,10 +23,7 @@ const SecondPage = () => (
         <Container>
           <Jumbotron style={jumbo}>
             {" "}
-            <h1>PROJECTS</h1>
-            <p>
-              <Button variant="primary">Learn more</Button>
-            </p>
+            <h1>Projects</h1>
           </Jumbotron>
           <div className="main">
             <ProjectsTabs />

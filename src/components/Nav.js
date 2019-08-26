@@ -1,6 +1,12 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import Brandonpic from "../images/BrandonPic.jpg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faCoffee,
+  faFacebook,
+  fabFaLinkedin,
+} from "@fortawesome/free-solid-svg-icons"
 import "./nav.css"
 
 export default class Nav extends Component {
@@ -14,40 +20,23 @@ export default class Nav extends Component {
 
           <ul class="list-unstyled components">
             <p>Dummy Heading</p>
+            <FontAwesomeIcon icon={faCoffee} />
+            <FontAwesomeIcon icon={fabFaLinkedin} />
             <li class="active">
-              <Link to="/">Home</Link>
+              <Link to="/">About Me</Link>
             </li>
             <li>
               <Link to="/projects">Projects</Link>
             </li>
 
             <li>
-              <Link to="/page-3"> Page3</Link>
+              <Link to="/page-3"> Resume</Link>
             </li>
             <li>
-              <a href="#">Portfolio</a>
+              <a href="#">Blog</a>
             </li>
             <li>
               <a href="#">Contact</a>
-            </li>
-          </ul>
-
-          <ul class="list-unstyled CTAs">
-            <li>
-              <a
-                href="https://bootstrapious.com/tutorial/files/sidebar.zip"
-                class="download"
-              >
-                Download source
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://bootstrapious.com/p/bootstrap-sidebar"
-                class="article"
-              >
-                Back to article
-              </a>
             </li>
           </ul>
         </nav>

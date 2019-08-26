@@ -15,18 +15,22 @@ export default class TopNav extends Component {
               <div class="card-up info-color"></div>
 
               <div class="avatar mx-auto white">
-                <img src={Brandonpic} class="rounded-circle img-fluid" />
+                <img
+                  src={Brandonpic}
+                  width={200}
+                  class="rounded-circle img-fluid"
+                />
               </div>
               <div class="card-body">
                 <li class="active">
-                  <Link to="/">Home</Link>
+                  <Link to="/">About Me</Link>
                 </li>
                 <li>
                   <Link to="/projects">Projects</Link>
                 </li>
 
                 <li>
-                  <Link to="/page-3"> Page3</Link>
+                  <Link to="/page-3">Resume</Link>
                 </li>
                 <hr />
 
@@ -37,12 +41,7 @@ export default class TopNav extends Component {
               </div>
             </div>
           </Nav>
-          <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-          </Nav>
+          <Nav></Nav>
         </Navbar.Collapse>
       </Navbar>
     )
