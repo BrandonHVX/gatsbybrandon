@@ -15,7 +15,7 @@ const tabs = {
 export default function ProjectsTabs() {
   return (
    
-      <Tabs style={{ textAlign: "center" }}>
+      <Tabs >
         {" "}
         <TabList>
           <Tab>Web Development</Tab>
@@ -25,11 +25,11 @@ export default function ProjectsTabs() {
         </TabList>{" "}
         <TabPanel>
           <h2 style={{ textAlign: "left" }}>Web Development</h2>
-          <WebDev />
+       
         </TabPanel>
         <TabPanel>
           <h2>Video Production</h2>
-          <Videos />
+         
         </TabPanel>
         <TabPanel>
           <h2>Digital Design</h2>
