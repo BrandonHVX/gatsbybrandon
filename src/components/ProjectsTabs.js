@@ -14,7 +14,7 @@ const tabs = {
 
 export default function ProjectsTabs() {
   return (
-    <Container>
+   
       <Tabs style={{ textAlign: "center" }}>
         {" "}
         <TabList>
@@ -38,6 +38,6 @@ export default function ProjectsTabs() {
           <h2>Motion Graphics</h2>
         </TabPanel>
       </Tabs>
-    </Container>
+
   )
 }
