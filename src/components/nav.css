@@ -1034,12 +1034,7 @@ a.resume-link:hover {
   .header .nav-item .dropdown-menu .dropdown-item {
     padding-left: 1.875rem;
   }
-  .link-mask {
-    display: none !important;
-  }
-  .mobile-is-hidden {
-    display: none;
-  }
+ 
 }
 body.dark-mode {
   background: #151e29;
