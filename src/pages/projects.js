@@ -21,29 +21,11 @@ const SecondPage = () => (
     <div className="wrapper">
       <Nav />
       <Container>
-        {" "}
-        <Row>
-          <Col sm={8}>
-            <Jumbotron style={jumbo}>
-              {" "}
-          
-              <p>
-                I'm a software engineer specialised in frontend and backend
-                development for complex scalable web apps. I write about
-                software development on my blog. Want to know how I may help
-                your project? Check out my project portfolio and online
-                resume.
-              </p>
-              <p>
-                <Button variant="primary">Learn more</Button>
-              </p>
-            </Jumbotron>
-          </Col>
-          <Col sm={4}>
-            {" "}
-            <img src={Brandonpic} width={350} />{" "}
-          </Col>
-        </Row>{" "}
+         
+      <AboutMe />     
+        <AboutMe />     
+        <AboutMe />
+         
         <AboutMe />
       </Container>
     </div>
