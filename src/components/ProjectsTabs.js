@@ -15,7 +15,7 @@ const tabs = {
 export default function ProjectsTabs() {
   return (
     <Container>
-      <Tabs style={{ textAlign: "center", maxWidth: "1000px" }}>
+      <Tabs style={{ textAlign: "center" }}>
         {" "}
         <TabList>
           <Tab>Web Development</Tab>
