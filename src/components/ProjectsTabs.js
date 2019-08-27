@@ -15,7 +15,7 @@ const tabs = {
 
 export default function ProjectsTabs() {
   return (
-    <div class="container">
+    <div >
     <ul class="nav nav-tabs" role="tablist">
       <li class="nav-item">
         <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
