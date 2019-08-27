@@ -9,10 +9,10 @@ import Image from "../components/image"
 import Brandonpic from "../images/BrandonPic.jpg"
 
 import Lottie from "react-lottie"
-
+import animationData from "../images/greeting.json"
 import { Row, Col, Container, Jumbotron, Button } from "react-bootstrap"
 
-import animationData from "../images/greeting.json"
+
 
 const text = {
   fontSize: "12px",

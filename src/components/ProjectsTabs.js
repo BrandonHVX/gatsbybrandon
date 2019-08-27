@@ -6,12 +6,7 @@ import WebDev from "./WebDev"
 import Videos from "./Videos"
 import AboutMe from "./AboutMe"
 
-const tabs = {
-  backgroundColor: "transparent",
-  color: "blue",
-  borderColor: "blue",
-  borderBottom: "blue",
-}
+
 
 export default function ProjectsTabs() {
   return (
