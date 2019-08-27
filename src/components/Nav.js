@@ -1,13 +1,17 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import Brandonpic from "../images/BrandonPic.jpg"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faCoffee,
-  faFacebook,
-  fabFaLinkedin,
-} from "@fortawesome/free-solid-svg-icons"
+
+import linked from "../images/linked.svg"
+import twitter from "../images/twitter.svg"
+import git from "../images/git.svg"
+
 import "./nav.css"
+
+const social = {
+  width: 50,
+  marginRight: "5px",
+}
 
 export default class Nav extends Component {
   render() {
@@ -20,8 +24,10 @@ export default class Nav extends Component {
 
           <ul class="list-unstyled components">
             <p>Dummy Heading</p>
-            <FontAwesomeIcon icon={faCoffee} />
-            <FontAwesomeIcon icon={fabFaLinkedin} />
+            <img src={linked} style={social} />
+            <img src={twitter} style={social} />
+            <img src={git} style={social} />
+
             <li class="active">
               <Link to="/">About Me</Link>
             </li>
@@ -30,7 +36,7 @@ export default class Nav extends Component {
             </li>
 
             <li>
-              <Link to="/page-3"> Resume</Link>
+              <Link to="/resume"> Resume</Link>
             </li>
             <li>
               <a href="#">Blog</a>

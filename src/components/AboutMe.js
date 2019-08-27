@@ -1,12 +1,5 @@
 import React, { Component } from "react"
 
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Nav from "../components/Nav"
-import TopNav from "../components/TopNav"
-import Image from "../components/image"
-import Brandonpic from "../images/BrandonPic.jpg"
 import ae from "../images/ae.svg"
 import ps from "../images/ps.svg"
 import ai from "../images/ai.svg"
@@ -23,7 +16,7 @@ import js from "../images/js.svg"
 import ruby from "../images/ruby.png"
 import html5 from "../images/html5.svg"
 import bootstrap from "../images/bootstrap.svg"
-import SEO from "../components/seo"
+
 import { Card, Row, Col, Container, Jumbotron, Button } from "react-bootstrap"
 import reactsvg from "../images/react.svg"
 const text = {
@@ -42,7 +35,7 @@ const jumbo = {
 export default class AboutMe extends Component {
   render() {
     return (
-      <div>
+      <Container>
         <h1>About Me</h1>
         <Row style={text}>
           <Col style={col} xs={6} md={4}>
@@ -79,10 +72,10 @@ export default class AboutMe extends Component {
           <Col style={col} xs={6} md={4}>
             <p>
               <span>
-                <img src={ruby} width={32} />
+                <img src={ruby} width={38} />
               </span>
               <span>
-                <img src={rails} width={40} />
+                <img src={rails} width={38} />
               </span>
             </p>
             List skills/technologies here. You can change the icon above to any
@@ -155,7 +148,7 @@ export default class AboutMe extends Component {
             ligula eget dolor.
           </Col>
         </Row>
-      </div>
+      </Container>
     )
   }
 }

@@ -1,12 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 import Nav from "../components/Nav"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import TopNav from "../components/TopNav"
 import ProjectsTabs from "../components/ProjectsTabs"
-import { Card, Row, Col, Container, Jumbotron, Button } from "react-bootstrap"
-import Brandonpic from "../images/BrandonPic.jpg"
+import { Container, Jumbotron } from "react-bootstrap"
 
 const jumbo = {
   backgroundColor: "transparent ",

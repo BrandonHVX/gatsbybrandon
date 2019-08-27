@@ -1,24 +1,30 @@
 import React from "react"
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
-import { Card, Row, Col, Container, Jumbotron, Button } from "react-bootstrap"
+import { Container } from "react-bootstrap"
 import "react-tabs/style/react-tabs.css"
 import WebDev from "./WebDev"
 import Videos from "./Videos"
 
+const tabs = {
+  backgroundColor: "transparent",
+  color: "blue",
+  borderColor: "blue",
+  borderBottom: "blue",
+}
+
 export default function ProjectsTabs() {
   return (
     <Container>
-      {" "}
-      <Tabs>
+      <Tabs style={{ textAlign: "center", maxWidth: "1000px" }}>
+        {" "}
         <TabList>
           <Tab>Web Development</Tab>
           <Tab>Video Production</Tab>
           <Tab>Digital Design</Tab>
           <Tab>Motion Graphics</Tab>
-        </TabList>
-
+        </TabList>{" "}
         <TabPanel>
-          <h2>Web Development</h2>
+          <h2 style={{ textAlign: "left" }}>Web Development</h2>
           <WebDev />
         </TabPanel>
         <TabPanel>
