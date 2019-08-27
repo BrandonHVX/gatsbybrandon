@@ -23,10 +23,10 @@ const SecondPage = () => (
       <Container>
          
       <AboutMe />     
-        <AboutMe />     
-        <AboutMe />
+           
+        <ProjectsTabs />
          
-        <AboutMe />
+        
       </Container>
     </div>
   </div>

@@ -6,15 +6,39 @@ import WebDev from "./WebDev"
 import Videos from "./Videos"
 import AboutMe from "./AboutMe"
 
-
+const tabs = {
+  backgroundColor: "transparent",
+  color: "blue",
+  borderColor: "blue",
+  borderBottom: "blue",
+}
 
 export default function ProjectsTabs() {
   return (
-   <div>
-    <AboutMe />
-    <AboutMe />
-    <AboutMe />
-    <AboutMe />
-    </div>                                                                                                                                             
+   
+      <Tabs >
+        {" "}
+        <TabList>
+          <Tab>Web Development</Tab>
+          <Tab>Video Production</Tab>
+          <Tab>Digital Design</Tab>
+          <Tab>Motion Graphics</Tab>
+        </TabList>{" "}
+        <TabPanel>
+          <h2 style={{ textAlign: "left" }}>Web Development</h2>
+
+        </TabPanel>
+        <TabPanel>
+          <h2>Video Production</h2>
+         
+        </TabPanel>
+        <TabPanel>
+          <h2>Digital Design</h2>
+        </TabPanel>
+        <TabPanel>
+          <h2>Motion Graphics</h2>
+        </TabPanel>
+      </Tabs>
+
   )
 }
