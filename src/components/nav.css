@@ -104,7 +104,7 @@ hr {
   width: 280px;
   background: #54b689;
   color: #fff;
-  /* overflow-y: auto; */
+  overflow-y: auto;
   scrollbar-color: rgba(0, 0, 0, 0.2) #54b689;
   scrollbar-width: thin;
 }
@@ -1034,7 +1034,12 @@ a.resume-link:hover {
   .header .nav-item .dropdown-menu .dropdown-item {
     padding-left: 1.875rem;
   }
- 
+  .link-mask {
+    display: none !important;
+  }
+  .mobile-is-hidden {
+    display: none;
+  }
 }
 body.dark-mode {
   background: #151e29;
