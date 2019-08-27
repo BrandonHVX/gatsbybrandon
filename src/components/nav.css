@@ -104,7 +104,7 @@ hr {
   width: 280px;
   background: #54b689;
   color: #fff;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   scrollbar-color: rgba(0, 0, 0, 0.2) #54b689;
   scrollbar-width: thin;
 }
