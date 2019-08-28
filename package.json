@@ -19,6 +19,7 @@
     "gatsby-plugin-sharp": "^2.2.13",
     "gatsby-source-filesystem": "^2.1.11",
     "gatsby-transformer-sharp": "^2.2.7",
+    "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.12",
@@ -26,7 +27,8 @@
     "react-helmet": "^5.2.1",
     "react-image-video-lightbox": "^2.0.1",
     "react-lottie": "^1.2.3",
-    "react-tabs": "^3.0.0"
+    "react-tabs": "^3.0.0",
+    "reactstrap": "^8.0.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.10.2",

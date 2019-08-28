@@ -9,10 +9,10 @@ import Image from "../components/image"
 import Brandonpic from "../images/BrandonPic.jpg"
 
 import Lottie from "react-lottie"
-import animationData from "../images/greeting.json"
+
 import { Row, Col, Container, Jumbotron, Button } from "react-bootstrap"
 
-
+import animationData from "../images/greeting.json"
 
 const text = {
   fontSize: "12px",
@@ -49,7 +49,7 @@ const IndexPage = () => (
             <Col sm={8}>
               <Jumbotron style={jumbo}>
                 {" "}
-                <Lottie options={defaultOptions} width={355} />
+                <Lottie options={defaultOptions} width={375} />
                 <p>
                   I'm a software engineer specialised in frontend and backend
                   development for complex scalable web apps. I write about

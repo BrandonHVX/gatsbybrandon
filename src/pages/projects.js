@@ -22,7 +22,7 @@ const SecondPage = () => (
       <Nav />
       <Container>
          
-      <AboutMe />     
+ 
            
         <ProjectsTabs />
          

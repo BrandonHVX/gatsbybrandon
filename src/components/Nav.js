@@ -28,8 +28,8 @@ export default class Nav extends Component {
             <img src={twitter} style={social} />
             <img src={git} style={social} />
 
-            <li class="active">
-              <Link to="/">About Me</Link>
+            <li>
+              <Link to="/">About </Link>
             </li>
             <li>
               <Link to="/projects">Projects</Link>
